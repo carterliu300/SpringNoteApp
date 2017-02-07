@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello jQuery</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="notes.js"></script>
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+    	
+        
+        <div id = "selected-note">
+        	
+        	<div id = "list-section">
+        		
+	        	<table id = "table-list">
+	        		<tbody></tbody>
+	        	</table>
+	        	
+        	</div>
+        	
+        	
+        	<div>
+	        	<div id = "sn-title">
+	        		<textarea class = "notes-title"></textarea>
+	        	</div>
+	        	
+	        	<div id = "sn-content">
+	        		<textarea class = "notes-content"></textarea>
+	        	</div>
+	        	
+	        	<div id = "bottom-bar">
+	        		<button class = "createNoteButton">Create Note</button>
+	        	</div>
+        	</div>
+        	
+        	<table id = "label-list">
+        		<thead>
+        		<tr>
+        			<td colspan = "2"><input id = "label-input"></td>
+        		</tr>
+        		<tr>
+        			<td colspan = "2"><button id = "add-label">Add Label</button></td>
+        		</tr>
+        		</thead>
+        		
+        		<tbody></tbody>
+        	</table>
+        	<!--
+	        <div class = "note-list">
+	            <p class="notes-title">The Note title is </p>
+	            <p class="notes-content">The Note content is </p>
+	        </div>
+	        -->
+        </div>
+    </body>
+</html>

@@ -1,0 +1,70 @@
+@CHARSET "UTF-8";
+div {
+	display: block;
+}
+html,body,#selected-note{
+	width: 100vw;
+	height: 100vh;
+	margin:0;
+}
+#selected-note {
+	background:	green;
+	display:	flex;
+	flex-direction:	rows;
+}
+
+#list-section {
+	width:	20%;
+	height: 100%;
+}
+
+#sn-title {
+	width: 		70%;
+	height: 	10%;
+	background: blue;
+}
+.notes-title{
+	font-size: 	300%;
+	height: 	100%;
+	width: 		100%;
+	border:		1px #000 solid;
+}
+
+#sn-content {
+	width: 		70%;
+	height:		80%;
+	background: red;
+}
+.notes-content{
+	font-size:	200%;
+	width:		100%;
+	height:		100%;
+}
+
+#bottom-bar{
+	width:		70%;
+	height:		10%;
+	background:	#e352ff;
+}
+
+
+#label-list {
+	width:		10%;
+	background: orange;
+}
+#table-list{
+	border-collapse: collapse;
+}
+td {
+	border:		1px #DDD solid;
+	padding:	5px;
+	cursor:		pointer;
+}
+
+.delete-note{
+	
+}
+.selected {
+	background-color:	red;
+	color:				white;
+}
